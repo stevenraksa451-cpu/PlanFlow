@@ -260,5 +260,3 @@ document.getElementById('signupPassword').addEventListener('input', function() {
 console.log('%cPlanFlow Auth System', 'font-size: 16px; color: #667EEA; font-weight: bold;');
 console.log('%cSupabase connecté avec succès', 'font-size: 12px; color: #48BB78;');
 ```
-
----
