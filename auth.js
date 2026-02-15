@@ -259,3 +259,21 @@ document.getElementById('signupPassword').addEventListener('input', function() {
 
 console.log('%cPlanFlow Auth System', 'font-size: 16px; color: #667EEA; font-weight: bold;');
 console.log('%cSupabase connecté avec succès', 'font-size: 12px; color: #48BB78;');
+```
+
+---
+
+## ⏱️ Après la Modification
+
+1. **Attendre 1-2 minutes** (GitHub Pages redéploie automatiquement)
+2. **Vider le cache** sur votre site : `Ctrl + Shift + R`
+3. **Recharger** `https://stevenraksa451-cpu.github.io/PlanFlow/auth.html`
+4. **Vérifier la console** (F12) : l'erreur doit avoir disparu ✅
+
+---
+
+## 🎯 URL de Votre Site
+
+Votre site sera accessible à :
+```
+https://stevenraksa451-cpu.github.io/PlanFlow/
