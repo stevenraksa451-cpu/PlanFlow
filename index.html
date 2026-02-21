@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlanFlow - Planification intelligente pour freelances</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=Crimson+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">PlanFlow</a>
+            <div class="nav-buttons">
+                <a href="auth.html" class="nav-btn nav-btn-secondary">Se connecter</a>
+                <a href="auth.html#signup" class="nav-btn nav-btn-primary">Créer un compte</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">Planification 100% automatisée par l'IA</div>
+                <h1>Transformez vos idées<br>en plan d'action concret</h1>
+                <p class="hero-subtitle">La première application de planification intelligente qui comprend vos objectifs et génère automatiquement un emploi du temps optimisé pour les atteindre.</p>
+                <a href="auth.html" class="cta-primary">Commencez gratuitement</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fonctionnalités principales -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tout ce dont vous avez besoin</h2>
+                <p class="section-subtitle">Une suite complète d'outils pensés pour simplifier votre quotidien de freelance</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    </div>
+                    <h3>Création intuitive par texte</h3>
+                    <p>Décrivez simplement vos tâches et projets en langage naturel. PlanFlow comprend vos intentions et structure automatiquement votre travail.</p>
+                </div>
+                
+                <div class="feature-card fade-in fade-in-delay-1">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+                    </div>
+                    <h3>Tableau visuel interactif</h3>
+                    <p>Visualisez votre emploi du temps sur un tableau Kanban élégant. Glissez-déposez, réorganisez et ajustez en temps réel votre planning.</p>
+                </div>
+                
+                <div class="feature-card fade-in fade-in-delay-2">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path><path d="M5 3v4"></path><path d="M19 17v4"></path><path d="M3 5h4"></path><path d="M17 19h4"></path></svg>
+                    </div>
+                    <h3>Optimisation automatique</h3>
+                    <p>L'IA analyse vos habitudes, vos deadlines et votre charge de travail pour proposer le meilleur agenda possible, sans effort.</p>
+                </div>
+                
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"></path><path d="m19 9-5 5-4-4-3 3"></path></svg>
+                    </div>
+                    <h3>Suivi de progression</h3>
+                    <p>Mesurez votre avancement, identifiez vos habitudes productives et recevez des insights personnalisés pour vous améliorer.</p>
+                </div>
+                
+                <div class="feature-card fade-in fade-in-delay-1">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"></path><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"></path></svg>
+                    </div>
+                    <h3>Notifications intelligentes</h3>
+                    <p>Recevez des rappels au bon moment, adaptés à votre rythme de travail et à vos priorités du jour.</p>
+                </div>
+                
+                <div class="feature-card fade-in fade-in-delay-2">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path><path d="M22 12A10 10 0 0 0 12 2v10z"></path></svg>
+                    </div>
+                    <h3>Synchronisation universelle</h3>
+                    <p>Connectez vos calendriers, outils et applications préférées pour une expérience unifiée et sans friction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fonctionnalité WOW -->
+    <section class="wow-feature">
+        <div class="container">
+            <div class="wow-content">
+                <div class="wow-badge">LA DIFFÉRENCE PLANFLOW</div>
+                <h2>Planification conversationnelle<br>100% automatisée</h2>
+                <p>Contrairement aux outils traditionnels, vous n'avez plus à créer manuellement chaque tâche, définir des durées ou organiser votre emploi du temps. Discutez simplement avec PlanFlow comme vous le feriez avec un assistant personnel.</p>
+                
+                <div class="wow-visual">
+                    <div class="wow-steps">
+                        <div class="wow-step">
+                            <div class="wow-step-number">1</div>
+                            <h4>Vous parlez</h4>
+                            <p>"Cette semaine je dois finir le site client, préparer ma compta et trouver du temps pour prospecter"</p>
+                        </div>
+                        
+                        <div class="wow-arrow">→</div>
+                        
+                        <div class="wow-step">
+                            <div class="wow-step-number">2</div>
+                            <h4>L'IA comprend</h4>
+                            <p>Analyse vos objectifs, estime les durées, identifie les priorités</p>
+                        </div>
+                        
+                        <div class="wow-arrow">→</div>
+                        
+                        <div class="wow-step">
+                            <div class="wow-step-number">3</div>
+                            <h4>Votre plan est prêt</h4>
+                            <p>Un emploi du temps optimisé, visuel et synchronisé avec vos calendriers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Commencez gratuitement</h2>
+                <p class="section-subtitle">Choisissez le plan qui correspond à vos besoins, sans engagement</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-tier">Free</div>
+                    <div class="pricing-price">0€<span>/mois</span></div>
+                    <p class="pricing-description">Parfait pour découvrir PlanFlow</p>
+                    <ul class="pricing-features">
+                        <li>3 projets actifs</li>
+                        <li>Planification IA (20/mois)</li>
+                        <li>Tableau visuel basique</li>
+                        <li>Notifications simples</li>
+                        <li>Synchronisation calendrier</li>
+                    </ul>
+                    <a href="auth.html" class="pricing-cta">Commencer gratuitement</a>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="pricing-tier">Pro</div>
+                    <div class="pricing-price">15€<span>/mois</span></div>
+                    <p class="pricing-description">Pour les freelances productifs</p>
+                    <ul class="pricing-features">
+                        <li>Projets illimités</li>
+                        <li>Planification IA illimitée</li>
+                        <li>Tableau avancé + templates</li>
+                        <li>Analytics & insights</li>
+                        <li>Intégrations premium</li>
+                        <li>Support prioritaire</li>
+                    </ul>
+                    <a href="auth.html" class="pricing-cta">Essayer Pro gratuitement</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="pricing-tier">Pro+</div>
+                    <div class="pricing-price">29€<span>/mois</span></div>
+                    <p class="pricing-description">Pour les équipes et agences</p>
+                    <ul class="pricing-features">
+                        <li>Tout de Pro, plus...</li>
+                        <li>Collaboration en équipe</li>
+                        <li>Espaces de travail multiples</li>
+                        <li>Reporting avancé</li>
+                        <li>API & webhooks</li>
+                        <li>Onboarding personnalisé</li>
+                    </ul>
+                    <a href="auth.html" class="pricing-cta">Essayer Pro+ gratuitement</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Témoignages -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ils ont transformé leur quotidien</h2>
+                <p class="section-subtitle">Des milliers de freelances font déjà confiance à PlanFlow</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"PlanFlow a littéralement changé ma façon de travailler. Je gagne au moins 5 heures par semaine juste en optimisation. Et le fait de pouvoir tout gérer par conversation naturelle est juste magique."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">ML</div>
+                        <div class="testimonial-info">
+                            <h4>Marie Lefebvre</h4>
+                            <p class="testimonial-role">Designer UI/UX freelance</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"En tant que développeur, j'ai testé tous les outils de productivité. PlanFlow est le seul qui comprenne vraiment comment je travaille et s'adapte à mon rythme sans que j'aie à tout configurer."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">TD</div>
+                        <div class="testimonial-info">
+                            <h4>Thomas Dubois</h4>
+                            <p class="testimonial-role">Développeur Full-Stack</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"L'IA qui planifie automatiquement ma semaine en fonction de mes deadlines et de mes priorités, c'est exactement ce dont j'avais besoin. Plus de stress de planning, je me concentre sur l'essentiel."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">SB</div>
+                        <div class="testimonial-info">
+                            <h4>Sophie Bernard</h4>
+                            <p class="testimonial-role">Consultante Marketing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust">
+        <div class="container">
+            <h2>Votre confiance est notre priorité</h2>
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                    </div>
+                    <h3>Sécurité maximale</h3>
+                    <p>Vos données sont chiffrées de bout en bout et hébergées en Europe (RGPD compliant)</p>
+                </div>
+                
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                    </div>
+                    <h3>Disponibilité 99.9%</h3>
+                    <p>Infrastructure robuste pour que vous puissiez compter sur PlanFlow à tout moment</p>
+                </div>
+                
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    </div>
+                    <h3>Support réactif</h3>
+                    <p>Une équipe dédiée pour vous accompagner et répondre à toutes vos questions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Prêt à reprendre le contrôle de votre temps ?</h2>
+            <p>Rejoignez des milliers de freelances qui ont déjà transformé leur productivité avec PlanFlow</p>
+            <a href="auth.html" class="cta-primary">Commencer gratuitement</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>PlanFlow</h4>
+                    <p style="color: rgba(255, 255, 255, 0.7); font-size: 0.95rem; line-height: 1.6;">
+                        La planification intelligente pour freelances qui transforme vos objectifs en actions concrètes.
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Produit</h4>
+                    <ul class="footer-links">
+                        <li><a href="#features">Fonctionnalités</a></li>
+                        <li><a href="#pricing">Tarifs</a></li>
+                        <li><a href="#">Démo interactive</a></li>
+                        <li><a href="#">Nouveautés</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Ressources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Guide freelance</a></li>
+                        <li><a href="#">Centre d'aide</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Légal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="#">CGU/CGV</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2026 PlanFlow. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
